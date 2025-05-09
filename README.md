@@ -1,6 +1,6 @@
-# Uingest: UltraRepo Ingestor
+# Uingest: UltraRepo AI Ingestor
 
-A fork of Crawl4AI RAG MCP server with PostgreSQL + PGVector support.
+A fork of Crawl4AI RAG MCP server with added support for PostgreSQL + PGVector
 
 Uingest ingests data from websites, sitemaps, or GitHub repos, creates embeddings using OpenAI, and stores results in PostgreSQL with PGVector. This enables powerful Retrieval-Augmented Generation (RAG) workflows through the Model Context Protocol (MCP).
 
