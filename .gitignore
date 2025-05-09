@@ -1,0 +1,24 @@
+# Python build artifacts
+build/
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Environment variables file
+.env
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# macOS specific
+.DS_Store
+
+# Other specific ignores for this project can be added below
+# For example, if you have local test data or logs not meant for the repo:
+# local_test_data/
+# *.log
+
+__pycache__
+crawl4ai_mcp.egg-info

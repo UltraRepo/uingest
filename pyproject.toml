@@ -1,0 +1,13 @@
+[project]
+name = "uingest"
+version = "0.1.0"
+description = "MCP server for ingesting web-based content, code, docs"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crawl4ai==0.6.2",
+    "fastmcp",
+    "psycopg[binary]>=3.1", # Changed to psycopg v3
+    "openai==1.71.0",
+    "python-dotenv>=1.0.0"
+]
